@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="item01">
+        <p id="item01-1">BMI CALCULATOR</p>
+        <div id="item01-2">
+            <p id="item1-2-1"> AGE: </p>
+            <input id="item1-2-2" type="number" placeholder="Enter the age">
+        </div>
+        <div id="item01-3">
+            <div id="item01-3-1">
+                Gender:
+            </div>
+            <div>
+                <input placeholder="Enter the gender" type="text" id="item01-3-2">
+            </div>
+        </div>
+        <div id="item01-4">
+            <div id="item01-4-1">
+                Height:
+            </div>
+            <div>
+                <input placeholder="Enter the height(metres)" type="number" id="item01-4-2">
+            </div>
+        </div>
+        <div id="item01-5">
+            <div id="item01-5-1">
+                Weight:
+            </div>
+            <div>
+                <input placeholder="Enter the weight(kilogram)" type="number" id="item01-5-2">
+            </div>
+        </div>
+        <button class="submit" onclick="generate()">Submit</button>
+        <p class="display"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

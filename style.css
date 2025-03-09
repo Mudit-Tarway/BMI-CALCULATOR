@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(0, 157, 255, 0.804);
+    background-image:url('https://thumbs.dreamstime.com/b/bmi-body-mass-index-acronym-health-concept-background-bmi-body-mass-index-acronym-health-concept-background-220086136.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#item01{
+    height:400px;
+    width:700px;
+    background-color: rgb(0, 0, 0);
+    margin-left:400px;
+    margin-top:20px;
+}
+#item01-1{
+    text-align: center;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:cornflowerblue;
+}
+#item01-2,#item01-3,#item01-4,#item01-5{
+    display:flex;
+}
+#item1-2-1, #item01-3,#item01-4-1,#item01-5-1{
+    color:white;
+    font-family:sans-serif;
+    padding-left:20px;
+    font-size:larger;
+}
+#item1-2-2{
+    margin-left:20px;
+    width: 150px; 
+    height: 16px;
+    MARGIN-TOP:20PX;
+}
+#item01-3-2{
+    margin-left: 20px;
+    width: 150px; 
+    height: 16px;
+}
+#item01-4,#item01-5{
+    margin-top:20px;
+}
+#item01-4-2{
+    margin-left: 20px;
+    width: 170px; 
+    height: 16px;
+}
+#item01-5-2{
+    margin-left: 20px;
+    width: 200px;
+    height:16px;
+}
+.submit {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.submit:hover {
+    background-color: #0056b3;
+}
+.display {
+    text-align: center; 
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
